@@ -19,7 +19,7 @@ public class ReminderHelper extends BaseHelper{
     }
 
     public void selectMonth(String time) {
-        pause(1000);
+        pause(4000);
         if (time.equals("past")) {
             swipe(0.5,0.8);
         } if (time.equals("future")) {
